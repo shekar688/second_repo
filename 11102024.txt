@@ -1,0 +1,330 @@
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 01:39:04 2024 from 13.233.177.4
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-33-169:~$ ls -ttr
+dir2  11  f2  file1  22  dir3  33  xyz  file4
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 32
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  5 02:44 dir2
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  5 02:44 11
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  5 02:44 f2
+-rwxrwxrwx 1 ubuntu ubuntu   27 Oct  5 02:46 file1
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  5 03:09 22
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  5 03:12 dir3
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  5 03:13 33
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  5 03:18 xyz
+-rw-rw-r-- 1 ubuntu ubuntu  269 Oct  5 03:26 file4
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ vi abc.txt
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 36
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  5 02:44 dir2
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  5 02:44 11
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  5 02:44 f2
+-rwxrwxrwx 1 ubuntu ubuntu   27 Oct  5 02:46 file1
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  5 03:09 22
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  5 03:12 dir3
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  5 03:13 33
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  5 03:18 xyz
+-rw-rw-r-- 1 ubuntu ubuntu  269 Oct  5 03:26 file4
+-rw-rw-r-- 1 ubuntu ubuntu   48 Oct 11 02:19 abc.txt
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat abc.txt 
+hello
+welcome
+1
+2
+3
+4
+good morning
+w
+'e
+r
+r
+r
+r
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ vi abc.txt 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat abc.txt 
+hello
+welcome
+1
+2
+hello welcome 
+3
+4
+good morning
+welcome devops
+egg
+run way
+random
+kjkllhhlhlhh
+lhjbfjhfohoi
+nfhhohjpbi
+
+ubuntu@ip-172-31-33-169:~$ vi abc.txt 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat abc.txt 
+hello
+welcome
+1
+2
+hello welcome 
+3
+4
+good morning
+welcome devops aws Azure gcp
+egg
+run way
+random
+kjkllhhlhlhh
+lhjbfjhfohoi
+nfhhohjpbi
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ touch xyz.sh
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 36
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  5 02:44 dir2
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  5 02:44 11
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  5 02:44 f2
+-rwxrwxrwx 1 ubuntu ubuntu   27 Oct  5 02:46 file1
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  5 03:09 22
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  5 03:12 dir3
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  5 03:13 33
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  5 03:18 xyz
+-rw-rw-r-- 1 ubuntu ubuntu  269 Oct  5 03:26 file4
+-rw-rw-r-- 1 ubuntu ubuntu  135 Oct 11 02:28 abc.txt
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct 11 02:29 xyz.sh
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat >> xyz.sh 
+welcome
+helloubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat xyz.sh 
+welcome
+helloubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ vi xyz.sh 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat xyz.sh 
+1
+2
+3
+4
+5
+kkkhkhkhkkwelcome
+hello
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ vi xyz.sh 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat xyz.sh 
+1
+2
+3aaaaaaaaaaaaa
+4
+5
+kkkhkhkhkkwelcome
+hello
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ vi xyz.sh
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat xyz.sh 
+2
+3aaaaaaaaaaaaa
+4
+kkkhkhkhkkwelcome
+hello
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ echo "welcome bangalore"
+welcome bangalore
+ubuntu@ip-172-31-33-169:~$ echo "welcome bangalore 123456"
+welcome bangalore 123456
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ echo "a1 a2 a3"
+a1 a2 a3
+ubuntu@ip-172-31-33-169:~$
+ubuntu@ip-172-31-33-169:~$ vi sample.txt
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat sample.txt 
+What is Git?
+Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
+
+It is used for:
+
+Tracking code changes
+Tracking who made changes
+Coding collaboration
+What does Git do?
+Manage projects with Repositories
+Clone a project to work on a local copy
+Control and track changes with Staging and Committing
+Branch and Merge to allow for work on different parts and versions of a project
+Pull the latest version of the project to a local copy
+Push local updates to the main project
+Working with Git
+Initialize Git on a folder, making it a Repository
+Git now creates a hidden folder to keep track of changes in that folder
+When a file is changed, added or deleted, it is considered modified
+You select the modified files you want to Stage
+The Staged files are Committed, which prompts Git to store a permanent snapshot of the files
+Git allows you to see the full history of every commit.
+You can revert back to any previous commit.
+Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
+Change Platform:
+Shift focus to GitHubGitHub
+Shift focus to BitbucketBitbucket
+Shift focus to GitLabGitLab
+Why Git?
+Over 70% of developers use Git!
+Developers can work together from anywhere in the world.
+Developers can see the full history of the project.
+Developers can revert to earlier versions of a project.
+What is GitHub?
+Git is not the same as GitHub.
+GitHub makes tools that use Git.
+GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
+In this tutorial, we will focus on using Git with GitHub.
+
+ubuntu@ip-172-31-33-169:~$ ls -ltr sample.txt |head 
+-rw-rw-r-- 1 ubuntu ubuntu 1670 Oct 11 02:49 sample.txt
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr sample.txt |head -10
+-rw-rw-r-- 1 ubuntu ubuntu 1670 Oct 11 02:49 sample.txt
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat sample.txt |head -10
+What is Git?
+Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
+
+It is used for:
+
+Tracking code changes
+Tracking who made changes
+Coding collaboration
+What does Git do?
+Manage projects with Repositories
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat sample.txt |head -5
+What is Git?
+Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
+
+It is used for:
+
+ubuntu@ip-172-31-33-169:~$ cat sample.txt |head -15
+What is Git?
+Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
+
+It is used for:
+
+Tracking code changes
+Tracking who made changes
+Coding collaboration
+What does Git do?
+Manage projects with Repositories
+Clone a project to work on a local copy
+Control and track changes with Staging and Committing
+Branch and Merge to allow for work on different parts and versions of a project
+Pull the latest version of the project to a local copy
+Push local updates to the main project
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat sample.txt |tail -10
+Over 70% of developers use Git!
+Developers can work together from anywhere in the world.
+Developers can see the full history of the project.
+Developers can revert to earlier versions of a project.
+What is GitHub?
+Git is not the same as GitHub.
+GitHub makes tools that use Git.
+GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
+In this tutorial, we will focus on using Git with GitHub.
+
+ubuntu@ip-172-31-33-169:~$ cat sample.txt |tail -5
+Git is not the same as GitHub.
+GitHub makes tools that use Git.
+GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
+In this tutorial, we will focus on using Git with GitHub.
+
+ubuntu@ip-172-31-33-169:~$ cat sample.txt |tail -2
+In this tutorial, we will focus on using Git with GitHub.
+
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat sample.txt |head -20
+What is Git?
+Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
+
+It is used for:
+
+Tracking code changes
+Tracking who made changes
+Coding collaboration
+What does Git do?
+Manage projects with Repositories
+Clone a project to work on a local copy
+Control and track changes with Staging and Committing
+Branch and Merge to allow for work on different parts and versions of a project
+Pull the latest version of the project to a local copy
+Push local updates to the main project
+Working with Git
+Initialize Git on a folder, making it a Repository
+Git now creates a hidden folder to keep track of changes in that folder
+When a file is changed, added or deleted, it is considered modified
+You select the modified files you want to Stage
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$    
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ more sample.txt
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat sample.txt |wc -l
+229
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ more sample.txt 
+
+
+
+=============================================================
+
+find ,sed,sort,awk   - major commands
+Shell script
+
+=================================================================
+Devops Tools - Git,Github
